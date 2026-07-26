@@ -1,8 +1,31 @@
 aid: eeye-digital-security
-name: eEye Digital Security
-description: 'eEye Digital Security is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile
-  is a lead awaiting the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eeye-digital-security.png
+name: Eye Security
+description: >-
+  Eye Security is a European (Netherlands-founded) cybersecurity company delivering
+  enterprise-grade Managed Detection and Response (Managed XDR), 24/7 incident
+  response, security awareness training, EU-native log retention (Eye Log), and
+  bundled cyber insurance to the mid-market. Rather than building its own detection
+  stack, Eye Security combines the human expertise of European security analysts
+  with vetted EDR/ITDR technologies, integrating with a customer's existing tech
+  stack. Backed by Bessemer Venture Partners. This API Evangelist profile was seeded
+  as a VC-portfolio stub under the mis-expanded legacy name "eEye Digital Security";
+  the wired domain (eye.security), HackerOne program, and Bessemer backing identify
+  the live company as Eye Security. Eye Security operates internal control-plane
+  APIs (api.control.eye.security, portal, agent) but publishes no public developer
+  API, OpenAPI, or developer portal, so this profile carries identity and security
+  posture artifacts rather than API specifications.
 url: https://raw.githubusercontent.com/api-evangelist/eeye-digital-security/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +33,23 @@ x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-name-note: >-
+  Stub was seeded as "eEye Digital Security" (a defunct US firm acquired by
+  BeyondTrust); evidence (eye.security domain, Bessemer backing, HackerOne VDP)
+  identifies the actual portfolio company as "Eye Security" (EU managed XDR).
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Cybersecurity
+- Managed Detection and Response
+- Managed XDR
+- Incident Response
+- Cyber Insurance
+- Security Awareness
+- Endpoint Security
+- Europe
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +59,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.eye.security/
+- type: Documentation
+  url: https://kb.eye.security/
+- type: Blog
+  url: https://www.eye.security/blog
+- type: Pricing
+  url: https://www.eye.security/pricing
+- type: PrivacyPolicy
+  url: https://www.eye.security/privacy
+- type: Support
+  url: https://www.eye.security/contact
+- type: SecurityTxt
+  url: well-known/eeye-digital-security-security.txt
+- type: WellKnown
+  url: well-known/eeye-digital-security-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/eeye-digital-security-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.eye.security/responsible-disclosure-policy
+- type: DomainSecurity
+  url: security/eeye-digital-security-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
