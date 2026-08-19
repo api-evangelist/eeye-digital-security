@@ -37,7 +37,7 @@ x-name-note: >-
   Stub was seeded as "eEye Digital Security" (a defunct US firm acquired by
   BeyondTrust); evidence (eye.security domain, Bessemer backing, HackerOne VDP)
   identifies the actual portfolio company as "Eye Security" (EU managed XDR).
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
